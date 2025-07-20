@@ -1,0 +1,30 @@
+[] add task
+[] remove task 
+[] update task
+[] mark todos as onGoing completed 
+
+Simple Data Structure:
+Each todo should have just:
+    id (MongoDB ObjectId)  
+    text (string)  
+    completed (boolean)  
+    createdAt (timestamp)  
+
+Basic API Endpoints:
+    GET /todos - Fetch all todos
+    POST /todos - Create new todo
+    PUT /todos/:id - Update todo (toggle completion)
+    DELETE /todos/:id - Delete todo
+
+Frontend Features:
+    [] Simple form to add todos
+    [] List display with checkboxes
+    [] Delete button for each item
+    [] Basic CSS for clean presentation
+
+Nice-to-Have (Add Later):
+    [] Edit todo text inline
+    [] Filter by completed/pending
+    [] Todo counter
+    [] Local storage backup
+    [] Basic validation
