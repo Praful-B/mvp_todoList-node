@@ -1,0 +1,25 @@
+{
+  "name": "mvp_todolist-node",
+  "version": "1.0.0",
+  "description": "AIM : To build without use of ai",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Praful-B/mvp_todoList-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Praful-B/mvp_todoList-node/issues"
+  },
+  "homepage": "https://github.com/Praful-B/mvp_todoList-node#readme",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}
